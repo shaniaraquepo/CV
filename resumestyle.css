@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Roboto Mono', monospace;
+}
+#navbar{
+    border-bottom: 3px solid grey;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+ul{
+    margin-left: 20%;
+    padding-top: 20px;
+    font-size: 18px;
+    list-style-type: none;
+}
+li a{
+    display: block;
+    float: left;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+}
+img{
+    justify-content: center;
+    margin: 120px 41% 0;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.main-section,#navhead{
+    scroll-margin-top: 120px;
+    height: 100vh;
+}
+#educationalBackground{
+    text-align: center;
+}
+h1,h4{
+    padding: 30px 0 15px;
+    text-align: center;
+}
+.containerCharRef{
+    margin: auto;
+    height: auto;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px 0 ;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+#navhead .container{
+    height: 150px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 0 30%;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+table{
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    margin: auto;
+    width: 30%; 
+}
+#personalData{
+    scroll-margin-top: 150px;
+}
+.educ{
+    margin: auto;
+    height: auto;
+    width: 50%;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+.skills{
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px 10px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+.skills li{
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto Mono', monospace;
+}
+html{
+    background-color: #C689C6;
+}
+.logo{
+    float: left;
+    margin: 10px 80px;
+    font-weight: 600;
+    font-size: 65px;
+    font-family: 'Inspiration', cursive;
+}
+#navbar{
+    display: inline;
+    border-bottom: 3px solid white;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    background-color: #645CAA;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 2px;
+    color: black;
+    border-radius: 25px;
+}
+nav ul li a:hover{
+    color: #EBC7E8;
+}
+nav ul li{
+    display: inline;
+    padding: 30px;
+}
+nav ul{
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+}
+.dropdown {
+    padding-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 40px;
+    background-color: #A084CA;
+    width: 100px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 8px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+}
+.dropdown-content a:hover{
+    background-color: #645CAA;
+    color: #EBC7E8;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+section{
+    height: 100vh;
+    margin: 0 20%;
+    border: 2px solid white;
+    background-color: #937DC2;
+}
+#intro{
+    background-color: #937DC2;
+    color: white;
+}
+img{
+    margin: 25% 5% 0;
+    height: 280px;
+    border:1px solid grey;
+    border-radius: 25%;
+    float: left;
+}
+.intro{
+    margin: 25% 5% 0 40%;
+    font-size: 18px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.header{
+    text-align: center;
+    margin: auto;
+    margin-top: 30%;
+    font-size: 200px;
+}
+.lesson-header{
+    color: white;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+    margin: 13% 20px 0 ;
+}
+iframe{
+    margin: 25px 20% 0;
+    width: 60%;
+    height: 300px
+}
+.description{
+    margin: 10px 30px;
+    line-height: 1.6;
+    color: white;
+}
